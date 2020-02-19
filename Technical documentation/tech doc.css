@@ -1,0 +1,191 @@
+body{
+        background-color: rgb(59, 54, 54);
+    }
+    .header-logo{
+      margin-left: 300px;
+      top: 0;
+      border: 3px solid rgb(78, 78, 78);
+      background: linear-gradient(to right,white, gray, yellow, rgb(253, 16, 16));
+      border-bottom-left-radius: 80%;
+      border-bottom-right-radius: 80%;
+  }
+
+.header-anim {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  animation-name: header-img;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  border: 5px solid rgb(78, 78, 78);
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  }
+  @keyframes header-img{
+    0% {
+background-image: url('https://www.electricgeneratorsdirect.com/img-assets/hybrid_page_21399.jpg');
+
+    }
+    25% {
+      background-image: url('https://www.electricgeneratorsdirect.com/img-assets/hybrid_page_21402.jpg');
+    }
+    50% {
+background-image: url('https://www.electricgeneratorsdirect.com/img-assets/hybrid_page_21400.jpg');
+    }
+    75% {
+background-image: url('https://www.electricgeneratorsdirect.com/img-assets/hybrid_page_21401.jpg');
+    }
+    100% {
+background-image: url('https://www.electricgeneratorsdirect.com/products-image/150/WGEN9500DF_101118_.jpg');
+    }
+  }
+
+    #logo-txt {
+      text-align: left;
+      margin-top: 0;
+      font-size: xxx-large;
+      font-weight: 900;
+      color: black;
+      font-family: Chalkduster, fantasy;
+      text-decoration-line: overline underline;
+      text-shadow: 5px 2px 4px yellow;
+      }
+#search-entry {
+  text-align: right;
+            }
+            .search-txt {
+                          max-width: 200px;
+                          height: 30px;
+                  }
+                  .search-txt:hover {
+                    border: 2px solid gray;
+                               }
+            .search-button{
+              margin-left: 3;
+                background-color: rgb(134, 134, 100);
+                font-weight: bold;
+                color: black;
+                border: 2px solid rgb(222, 226, 2);
+                top: 0;
+                height: 30px;
+            }
+            #navbar {
+              position: fixed;
+              min-width: 290px;
+              top: 0;
+              left: 0px;
+              width: 300px;
+              height: 100%;
+              border-right: solid;
+              border-color: rgba(0, 0, 0, 0.4);
+            }
+            #nav-header {
+              color: rgb(141, 138, 138);
+              margin: 10px;
+              text-align: center;
+              font-size: 1.8em;
+              font-weight: thin;
+            }
+            #navbar ul {
+              height: 88%;
+              padding: 0;
+              overflow-y: auto;
+              overflow-x: hidden;
+            }
+            
+            #navbar li {
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              color: #4d4e53;
+              font-size: 1.3em;
+              border-top: 3px solid;
+              list-style: none;
+              position: relative;
+              width: 100%;
+            }
+            #navbar a {
+              display: block;
+              padding: 10px 30px;
+              color: rgb(223, 219, 219);
+              text-decoration: none;
+              cursor: pointer;
+            }
+            #main-doc {
+              position: absolute;
+              margin-left: 310px;
+              padding: 20px;
+              margin-bottom: 110px;
+            }
+            section article {
+              color: #b9b9bb;
+              margin: 15px;
+              font-size: 0.96em;
+            }
+            #pub-logo {
+              text-align: center;
+              margin-top: 30%;
+              font-size: xx-large;
+              font-weight: 900;
+              color: black;
+              font-family: Chalkduster, fantasy;
+              text-decoration-line: overline underline;
+              text-shadow: 5px 2px 4px yellow;
+              }
+              .name {
+                text-align: center;
+              }
+              @media only screen and (max-width: 868px) {
+                
+                #navbar ul {
+                  border: 1px solid;
+                  height: 207px;
+                }
+              
+                #navbar {
+                  position: absolute;
+                  top: 0;
+                  padding: 0;
+                  margin: 0;
+                  width: 100%;
+                  max-height: 210px;
+                  border: none;
+                }
+              
+                #main-doc {
+                  display: flex;
+                  flex-direction: column;
+                  position: relative;
+                  margin-left: 0px;
+                  margin-top: 340px;
+                }
+              }
+              @media only screen and (max-width: 1000px) {
+                .header-anim {
+                  display: none;
+                }
+                .header-logo{
+                  margin-left: 300px;
+                  top: 0;
+                  border: none;
+                  background: none;
+                  border-bottom-left-radius: 0%;
+                  border-bottom-right-radius: 0%;
+              }
+              #logo-txt {
+                display: none;
+                }
+              }
+              @media only screen and (max-width: 508px) {
+                #search-entry {
+                  display: none;
+                }
+              }
+
+
+  
+        
+            
+            

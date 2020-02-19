@@ -1,0 +1,189 @@
+* { margin:0; padding:0;}
+@media all and (max-device-width: 480px) {
+  body {
+    display: block;
+          background-color: orange;
+          width: auto;
+        }
+        #img {
+        
+          position: fixed;
+      top: 0;
+                     }
+                     #header{
+                      position: fixed;
+                      top: 0;
+                      width: 100%; 
+                         
+                  }
+                     #header-img {
+                margin-top: 5px;
+                 }
+            .logo-txt {
+              font-size: 70px;
+              color: black;
+              margin-left: 280px;
+              margin-top: -170px;
+              text-shadow:orange 0 3px ;
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              background: linear-gradient(to right,#3dda37, orange);
+              text-decoration: none;
+                 }
+                 ul {
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                  overflow: hidden; 
+                  background: #3dda37;
+                      } 
+              li {
+                  float: right;  
+                          
+                      } 
+                      li a {
+                          display: flex;
+                          flex-direction: column;
+                          color: black;
+                          text-align: center;
+                          padding: 14px 16px;
+                          text-decoration: none;
+                        }     
+      }
+
+
+            #img {
+        
+        position: fixed;
+    top: 0;
+    text-decoration: none;
+
+                   }
+                   #header{
+                    position: fixed;
+                    top: 0;
+                    width: 100%; 
+                       
+                }
+                   #header-img {
+              margin-top: 5px;
+               }
+          .logo-txt {
+            font-size: 70px;
+            color: black;
+            margin-left: 280px;
+            margin-top: -170px;
+            text-shadow:orange 0 3px ;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background: linear-gradient(to right,#3dda37, orange);
+               }
+           
+        
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden; 
+                background: #3dda37;
+                    } 
+            li {
+                float: right;  
+                        
+                    } 
+                    li a {
+                        display: block;
+                        color: black;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                      }     
+                         
+                      
+                      li a:hover {
+                        background:linear-gradient(to right,#21dd1a, rgb(255, 115, 0));
+                        color: white;
+                      }
+                      form{
+                          float: right;
+                          margin-right: 8px;
+                      }
+                      #email{
+                        padding: 5px;
+                        border: 2px solid gray;
+                        width: 300px;
+                        height: 35px;
+
+                      }
+                      #email:hover{
+                        border: 2px solid#3dda37;
+                      }
+                      #submit{
+                        background: thistle;
+                        padding: 5px;
+                        font-weight: bold;
+                      }
+                      #submit:hover,.div-a:hover{
+                        animation-name: color;
+                        animation-duration: 2s;
+                      animation-fill-mode: forwards;
+                      animation-timing-function: ease;
+                      }
+                      input{
+                        display: block;
+                        margin: auto;
+                      }
+                      article{
+                        text-align: center;
+                        margin: auto;
+                        max-width: 900px;
+                      }
+                      h1{
+                        font-size: xxx-large;
+                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                      }
+                      #Pricing {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                       }
+                      .pricing {
+                        display: flex;
+                        flex-direction: column;
+                        border: 1px solid rgb(1, 65, 1);
+                        margin-left: 10px;
+                        width: 250px;
+                        height: 300px;
+                         }
+                         .pricing-header {
+                          text-align: center;
+                          padding: 10px;
+                          background: linear-gradient(to right,#21dd1a, rgb(255, 115, 0));
+                          font-variant: small-caps;
+                          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                          font-weight: 20px;
+                          flex-grow: 1;
+                           }
+                           .price{
+                            font-weight: bold;
+                            font-size: 30px;
+                            text-align: center;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            flex-grow: 1;
+                           }
+                           .p{
+                            text-align: center;
+                            font-size: 15px;
+                            padding-top: 10px;
+                            font-family: 'Courier New', Courier, monospace;
+                            flex-grow: 1;
+                           }
+                           footer{
+                            font-weight: bold;
+                            font-size: 20px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            
+                           }
+                          
+                      
+ 

@@ -1,0 +1,210 @@
+body {
+  background: orange;
+}
+@media all and (max-device-width: 600px) {
+  #header-img {
+    display: flex;
+}
+body {
+  background: orange;
+  width: auto;
+}
+header {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+   }
+   #nav-bar{
+    display: flex;
+    flex-direction: column;
+        position: fixed;
+        top: 0;
+        align-items: center;
+        width: auto;
+       }   
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:black;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      border: 2px solid white;
+    }
+    li {
+      font-weight: bolder;
+      font-size: 1.1em;
+    }
+
+    #Pricing {
+      display: flexbox;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+     }
+     .pricing {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      width: 250px;
+      height: 250px;
+      margin-bottom: 3px;
+       }
+       .p{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+       }
+
+       video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       max-width: 320px;
+       text-align: center;
+         margin: auto;
+    }
+}
+#header-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+     }
+    #nav-bar{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+          position: fixed;
+          top: 0;
+         }   
+     ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:black;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      border: 2px solid white;
+    }
+    
+    li {
+      float: left;
+      border-right: 1px solid #bbb;
+      font-weight: bolder;
+      font-size: x-large;
+    }
+    li:last-child {
+      border-right: none;
+    }                 
+
+    li a {
+      display: block;
+      color:#3dda37;
+      text-align: center;
+      padding: 3px 10px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgba(245, 245, 245, 0.404);
+      color: white;
+    }     
+    .active {
+      background-color: #4CAF50;
+    }
+    form{
+      text-align: center;
+      margin-top: 90px;
+      
+     }
+     #email{
+      padding: 5px;
+      border: 2px solid gray;
+      width: 300px;
+      height: 40px;
+
+    }
+    #email:hover{
+      border: 2px solid#3dda37;
+    }
+    #submit{
+      background: #3dda37;
+      padding: 5px;
+      font-weight: bold;
+      height: 40px;
+      width: 100px;
+    }
+    article{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      max-width: 800px;
+    }
+    h1{
+      font-size: xxx-large;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    #Pricing {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+     }
+    .pricing {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgb(1, 65, 1);
+      margin-left: 10px;
+      width: 250px;
+      height: 300px;
+       }
+       .pricing-header {
+        text-align: center;
+        padding: 10px;
+        background: linear-gradient(to right,#21dd1a, rgb(255, 115, 0));
+        font-variant: small-caps;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 20px;
+        flex-grow: 1;
+         }
+         .price{
+          font-weight: bold;
+          font-size: 30px;
+          text-align: center;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          flex-grow: 1;
+         }
+         .p{
+          text-align: center;
+          font-size: 15px;
+          padding-top: 10px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          flex-grow: 1;
+         }
+         footer{
+          font-weight: bold;
+          font-size: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          text-align: center;
+          
+         }
+
+                                              
+          
+            
+            
+           
